@@ -96,27 +96,33 @@ a{
   display:inline-block;
   color:#fff;
   text-decoration:none;
-<h3>NoLove3 Releases</h3>
-
-<div class="grid">
-
-<a href="https://open.spotify.com/album/61Tzpmuyiugo0TYf4AWePX">
-WHATS LEFT
-</a>
-
-<a href="https://open.spotify.com/artist/43WYxNdcDd1FjfUIekJ1Nf">
-THE REAL ME
-</a>
-
-<a href="https://open.spotify.com/artist/43WYxNdcDd1FjfUIekJ1Nf">
-NOT MISSIN ME?
-</a>
-
-<a href="https://open.spotify.com/artist/43WYxNdcDd1FjfUIekJ1Nf">
-4AM
-</a>
-
-</div>
+  border:1px solid #555;
+  padding:12px 17px;
+  border-radius:3px
+}
+a:hover{
+  background:#fff;
+  color:#000
+}
+main{
+  max-width:900px;
+  margin:auto;
+  padding:70px 25px
+}
+section{
+  padding:20px 0 45px
+}
+h2{
+  font-size:30px;
+  margin-bottom:10px
+}
+.grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+  gap:12px
+}
+footer{
+  border-top:1px solid #222;
   padding:30px 25px;
   color:#777;
   text-align:center
